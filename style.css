@@ -1,0 +1,152 @@
+body{
+    background-image: url(white.jpeg);
+    background: #fff;
+    color:black;
+    line-height: 1.6em;
+    margin: auto;
+    padding: 0;
+   
+    }
+  
+    .container{
+        
+        margin: auto;
+        width:100%;
+        height: 80%;
+        box-sizing: content-box;
+        overflow: hidden;
+        position: relative;
+      
+    }
+ .center{
+    
+     text-align: center;
+ }
+   
+.cardcontainer{
+    display:flex;
+   margin: 10%;
+   justify-content: space-between;
+
+  
+}
+
+.left
+{
+    
+    float:left;
+    padding: 20px;
+    margin: 30;
+    width:50%;
+    
+
+}
+.right
+{
+    float: right;
+    padding: 20px;
+    width:50%;
+}
+
+#listbox h1 {
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    #navbar{
+        background-color: #333;
+        color: #fff;
+    }
+    #navbar ul{
+        padding:0;
+        list-style: none;
+    }
+    #navbar li{
+        display:inline;
+    }
+    #navbar a{
+        color: #fff;
+        text-decoration: none;
+        font-size:18px;
+        padding-right: 15px;
+
+            }
+ #main-header {
+    background-image: url(back.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    min-height: 300px;;
+    margin-bottom: 30px;
+   
+    
+  
+    }
+#main-header h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    text-align: center;
+}
+#main-header h2{
+    color:rgb(34, 31, 31);
+    line-height: 1.6em;
+    
+    text-align: center;
+}
+
+ #button{
+ 
+    background-color:purple;
+    color: aliceblue;
+    width: 150px;
+    padding: 10px 5px;
+    margin-left: 40%;
+   
+ }
+#button a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30% ;
+    text-align: center;
+   }
+   #button:hover{
+    background-color:rgb(202, 26, 202);
+   }
+#title{
+    width:80%;
+    padding-bottom:  50px;
+    text-align: center;
+    margin: auto;
+  }
+#main{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+    font-size: 1.5em;
+    text-align: center;
+    justify-items: center;
+}
+#listbox{
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media(max-width:600px){
+    #main-header{
+        width: 100%;
+        float: none;
+    }
+   #main{
+    width: 100%;
+    float: none;
+   }
+
+}
